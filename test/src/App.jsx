@@ -4,6 +4,7 @@ import GrandChild, {Child, Parent} from './components/Child.jsx'
 
 
 
+
 function App(){
   return(
     <>
@@ -15,6 +16,7 @@ function App(){
     {/* <Child /> */}
     {/* <GrandChild/> */}
     <NetflixSeries/>
+    
     </>
   );
 
