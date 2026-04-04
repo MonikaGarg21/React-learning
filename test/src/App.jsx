@@ -1,6 +1,7 @@
 import NetflixSeries from './NetflixSeries.jsx';
 import Props from './Props.jsx'
 import GrandChild, {Child, Parent} from './components/Child.jsx'
+import { EventHandling } from './components/EventHandling.jsx';
 import "./components/Netflix.css";
 
 
@@ -15,9 +16,10 @@ function App(){
     {/* <Parent/> */}
     {/* <Child /> */}
     {/* <GrandChild/> */}
-    <h1 className = "card-heading">List Of Best Netflix Series</h1>
+    {/* <h1 className = "card-heading">List Of Best Netflix Series</h1>
     <hr/>
-    <NetflixSeries/>
+    <NetflixSeries/> */}
+    <EventHandling/>
     
     </section>
   );
